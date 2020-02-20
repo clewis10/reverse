@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reverse Shell</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to Reverse Shell!</h1>
+<br>
+<p>This input allows users to upload a file...</p>
+
+<hr/>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <p>Select File to Upload</p>
+    <input type="file" name="fileToUpload" id="fileToUpload" style="float:left">
+    <input type="submit" value="Upload" name="submit" style="float:right">
+</form>
+
+
+
+</body>
+</html>
